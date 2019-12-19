@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title> Personas </title>
+    <title>React Live-Filter</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -38,7 +38,7 @@
                 <li><a href="personas.html">Personas</a></li>
                 <li><a href="ab.html">A/B Testing</a></li>
                 <li><a href="iter.html">Iterative Design</a></li>
-                <li class="active"><a href="#">Development</a></li> <!--class page scroll?-->
+                <li class="active"><a href="#">React Live-Filter</a></li> <!--class page scroll?-->
               </ul>
             </li>
             <li><a href="index.html#contact">contact + more</a></li>
@@ -52,9 +52,24 @@
     <div id="main">
       <div class="container" id="content">
         <div id="content-header">
-          <h3>Development</h3>
+          <h1>React Live-Filter</h1>
         </div>
-        <p>This is where I'll talk a bit about myself. You'll find my portfolio below.</p>
+        <h3>Interace Design Principles</h3>
+        <p>
+          I labeled the dropdown select menus with their respective purposes
+          to make them more learnable, and the simplicity of the dropdown I hope
+          makes it memorable as well. I'd say it's fairly efficient as well. Perhaps
+          if I had more time I would have also installed a complete-revert button.<br/><br/>
+
+          Data passed through components and user-interaction:<br/>
+          The user selection of Type, Country and Sorting directly interact
+          with the FilteredList component to change its state. Then it uses
+          those states to filter its searches on the given item-list
+          (a prop of the filtered list). This list is then passed onto the
+          List component which renders the list, perhaps sorted if so chosen.<br/><br/>
+        </p>
+        <h3>The Project</h3>
+        <p>This project can be found at...</p>
       </div>
     </div>
   </body>

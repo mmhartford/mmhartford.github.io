@@ -2,7 +2,7 @@ body {
     width: 100%;
     font-family: "Montserrat", Arial, serif;
     color: #fff;
-    background-color: #e1e3dd;
+    background-color: #5CA3D6;
 }
 
 html {
@@ -39,15 +39,22 @@ html {
   }
 */
 
-#content h3{
+#content h1{
   margin-left: 50px;
   margin-top: 40px;
   font-size: 50px;
 }
 
-#content p{
+#content h3{
   margin-left: 80px;
-  margin-top: 40px;
+  margin-top: 30px;
+  font-size: 28px;
+}
+
+#content p{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
   margin-bottom: 30px;
   font-size: 18px;
 }
