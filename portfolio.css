@@ -88,7 +88,8 @@ html {
     grid-column-gap: 5px;
     width: 100%;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 600px 600px;
+    /*grid-template-columns: 400px 400px;*/
+    grid-template-rows: 400px 400px;
   }
 
   #Personas{
@@ -120,6 +121,7 @@ html {
     grid-column-gap: 5px;
     width: 100%;
     grid-template-columns: 100%;
+    /*grid-template-columns: 400px 400px;*/
     grid-template-rows: 400px 400px 400px 400px;
   }
 
@@ -216,11 +218,28 @@ html {
 
 #Portfolio{
   margin-bottom: 40px;
+  text-align: center;
 }
 
 #Portfolio h1{
   margin-top: 40px;
   margin-left: 20px;
+}
+
+#Portfolio a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#Portfolio a:hover{
+  color: #67d7ea;
+}
+
+#Personas img{
+    width: 200px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 #Personas{
@@ -244,8 +263,8 @@ html {
     border: 5px solid #326284;
 }
 
-#Personas h4{
-  margin: 30px;
+#Portfolio h4{
+  margin: 10px;
   font-size: 20px;
 }
 
@@ -270,10 +289,17 @@ html {
     border: 5px solid #326284;
 }
 
+#AB img{
+    width: 450px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/*
 #AB h4{
   margin: 30px;
   font-size: 20px;
-}
+}*/
 
 #Iter{
   background-color:  #326284;
@@ -295,11 +321,11 @@ html {
 #iter-topmask, #iter-leftmask, #iter-rightmask, #iter-bottommask{
     border: 5px solid #326284;
 }
-
+/*
 #Iter h4{
   margin: 30px;
   font-size: 20px;
-}
+}*/
 
 #Dev{
   background-color: #326284;
@@ -321,11 +347,11 @@ html {
 #dev-topmask, #dev-leftmask, #dev-rightmask, #dev-bottommask{
     border: 5px solid #326284;
 }
-
+/*
 #Dev h4{
   margin: 30px;
   font-size: 20px;
-}
+}*/
 
 
 #contact{

@@ -59,6 +59,15 @@ html {
   font-size: 18px;
 }
 
+#content img{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 35%;
+  height: 35%;
+}
+
 /*
 .topmask {
   position: absolute;
