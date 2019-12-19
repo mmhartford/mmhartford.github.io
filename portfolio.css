@@ -360,6 +360,12 @@ html {
   font-size: 20px;
 }*/
 
+#Dev img{
+    width: 40px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
 #contact{
     background-color: #5CA3D6;
