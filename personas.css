@@ -11,6 +11,25 @@ html {
 }
 
 
+
+#main{
+  margin-top: 50px;
+  width: 100%;
+}
+
+#content{
+    background-color: #5CA3D6;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+}
+
+#content h3{
+  margin: 15px;
+  font-size: 120px;
+}
+
+
 .topmask {
   position: absolute;
   top:-3px;
