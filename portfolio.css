@@ -1,0 +1,412 @@
+body {
+    width: 100%;
+    font-family: "Montserrat", Arial, serif;
+    color: #fff;
+    background-color: #e1e3dd;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:750px){
+  #about{
+    background-color: #5CA3D6;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+  }
+
+  #about-header{
+    text-align: justify;
+    display: inline-block;
+    width: 700px;
+    height: 160px;
+    border: 3px solid #fff;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 30px;
+  }
+
+  #about-topmask, #about-bottommask, #about-leftmask, #about-rightmask{
+    border: 3px solid #5CA3D6;
+  }
+
+  #about-header h1{
+    margin: 20px;
+    font-size: 50px;
+  }
+
+  #about p{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 18px;
+  }
+
+}
+
+@media(max-width:750px){
+  #about{
+    background-color: #5CA3D6;
+    text-align: center;
+    width: 100%;
+    height: 360px;
+  }
+
+  #about-header{
+    text-align: justify;
+    display: inline-block;
+    width: 340px;
+    height: 85px;
+    border: 3px solid #fff;
+    position: relative;
+    margin-top: 85px;
+    margin-bottom: 25px;
+  }
+
+  #about-topmask, #about-bottommask, #about-leftmask, #about-rightmask{
+    border: 3px solid #5CA3D6;
+  }
+
+  #about-header h1{
+    margin: 15px;
+    font-size: 23px;
+  }
+
+  #about p{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 13px;
+  }
+}
+
+@media(min-width:970px){
+  #Portfolio{
+    display: grid;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px;
+  }
+
+  #Personas{
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  #AB{
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  #Iter{
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  #Dev{
+    grid-row: 2;
+    grid-column: 2;
+  }
+
+}
+
+@media(max-width:970px){
+  #Portfolio{
+    display: grid;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 400px 400px 400px 400px;
+  }
+
+  #Personas{
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  #AB{
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  #Iter{
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  #Dev{
+    grid-row: 4;
+    grid-column: 1;
+  }
+
+}
+
+.holder {
+  border: 3px solid #000;
+  height: 200px;
+  width: 200px;
+  position:relative;
+  margin:10px;
+}
+
+.topmask {
+  position: absolute;
+  top:-3px;
+  right: -3px;
+  width: 83%;
+  height: 3px;
+  background-color:#e1e3dd;
+}
+
+.bottommask{
+  position: absolute;
+  bottom:-3px;
+  left: -3px;
+  width: 83%;
+  height: 3px;
+  background-color:#e1e3dd;
+}
+
+.leftmask{
+  position: absolute;
+  bottom:-3px;
+  left: -3px;
+  height: 75%;
+  width: 3px;
+  background-color:#e1e3dd;
+}
+
+.rightmask{
+  position: absolute;
+  top:-3px;
+  right: -3px;
+  height: 75%;
+  width: 3px;
+  background-color:#e1e3dd;
+}
+
+#main{
+  margin-top: 50px;
+  width: 100%;
+}
+
+#port-header{
+  width: 165px;
+  height: 65px;
+  border: 3px solid #000;
+  position: relative;
+  text-align: center;
+  margin-left: 45px;
+  margin-top: 40px;
+}
+
+#port-topmask, #port-leftmask, #port-rightmask, #port-bottommask{
+    border: 3px solid #e1e3dd;
+}
+
+#port-header h3{
+  margin: 10px;
+  color: #000;
+  font-size: 35px;
+}
+
+#Portfolio{
+  margin-bottom: 40px;
+}
+
+#Portfolio h1{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+#Personas{
+  background-color: #326284;
+
+  border: 5px solid #fff;
+  position: relative;
+  text-align: justify;
+  margin: 20px;
+  margin-left: 45px;
+  margin-top: 40px;
+  color: #fff;
+}
+
+#Personas:hover{
+  border-color: #67d7ea;
+  color: #67d7ea;
+}
+
+#pers-topmask, #pers-leftmask, #pers-rightmask, #pers-bottommask{
+    border: 5px solid #326284;
+}
+
+#Personas h4{
+  margin: 30px;
+  font-size: 20px;
+}
+
+#AB{
+  background-color: #326284;
+
+  border: 5px solid #fff;
+  position: relative;
+  text-align: justify;
+  margin: 20px;
+  margin-left: 45px;
+  margin-top: 40px;
+  color: #fff;
+}
+
+#AB:hover{
+  border-color: #67d7ea;
+  color: #67d7ea;
+}
+
+#ab-topmask, #ab-leftmask, #ab-rightmask, #ab-bottommask{
+    border: 5px solid #326284;
+}
+
+#AB h4{
+  margin: 30px;
+  font-size: 20px;
+}
+
+#Iter{
+  background-color:  #326284;
+
+  border: 5px solid #fff;
+  position: relative;
+  text-align: justify;
+  margin: 20px;
+  margin-left: 45px;
+  margin-top: 40px;
+  color: #fff;
+}
+
+#Iter:hover{
+  border-color: #67d7ea;
+  color: #67d7ea;
+}
+
+#iter-topmask, #iter-leftmask, #iter-rightmask, #iter-bottommask{
+    border: 5px solid #326284;
+}
+
+#Iter h4{
+  margin: 30px;
+  font-size: 20px;
+}
+
+#Dev{
+  background-color: #326284;
+
+  border: 5px solid #fff;
+  position: relative;
+  text-align: justify;
+  margin: 20px;
+  margin-left: 45px;
+  margin-top: 40px;
+  color: #fff;
+}
+
+#Dev:hover{
+  border-color: #67d7ea;
+  color: #67d7ea;
+}
+
+#dev-topmask, #dev-leftmask, #dev-rightmask, #dev-bottommask{
+    border: 5px solid #326284;
+}
+
+#Dev h4{
+  margin: 30px;
+  font-size: 20px;
+}
+
+
+#contact{
+    background-color: #5CA3D6;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+}
+
+#contact-header{
+  width: 290px;
+  height: 67px;
+  border: 3px solid #fff;
+  position: relative;
+  text-align: center;
+  margin: 20px;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+
+#cont-topm, #cont-botm, #cont-leftm, #cont-rightm{
+  border: 3px solid #5CA3D6;
+}
+
+#cont-leftm, #cont-rightm{
+  height: 70%;
+}
+
+#contact-header h3{
+  margin: 10px;
+  color: #fff;
+  font-size: 35px;
+}
+
+#wrap{
+  text-align: justify;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#contact h4{
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    font-size: 0.9em;
+    border-bottom: 1px solid #fff;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    background-color: #326284;
+}
+
+.navbar-custom a {
+    color: #ffffff;
+}
+
+.navbar-custom button{
+  background-color: #fff;
+  border: 1px black;
+  height: 38px;
+  width: 46px;
+  padding: 6px 12px;
+}
+
+.navbar-custom button span{
+  background-color: black;
+}
+
+.navbar-custom button:hover{
+  background-color: #e1e3dd;
+}
+
+.navbar-custom .nav li a:hover {
+    color: #67d7ea;
+    background-color: transparent;
+}
+
+.dropdown-menu li a {
+  color: white;
+  background-color: #326284;
+}
